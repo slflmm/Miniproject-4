@@ -1,0 +1,78 @@
+Downtown: 
+Corners Sherbrooke and Guy, Sherbrooke and Union, Sherbrooke and Saint-Hubert, Saint-Hubert and Viger, Guy and Argyle
+Source: Only found it on Wiki :(. http://en.wikipedia.org/wiki/Downtown_Montreal
+45.4965279,-73.581726
+45.5055724,-73.5729745
+45.5189297,-73.5664739
+45.5133291,-73.5542674
+45.4930305,-73.5731665
+
+
+Old Montreal: 
+Corners McGill and d'Youville, Saint-Jacques and McGill, Champ-de-Mars and Gosford, Berri and Notre-Dame, Commune and Berri, Commune and Place Royale
+Source: http://www.vieux.montreal.qc.ca/images/pdf/loc_3.pdf
+45.4998343,-73.5561395
+45.501248,-73.5602581
+45.5094521,-73.554103
+45.5113367,-73.5518386
+45.5110466,-73.5501327
+45.5033755,-73.5539042
+
+
+Chinatown: 
+Saint-Laurent and de La Gauchetière
+Source: http://ville.montreal.qc.ca/portal/page?_pageid=7317,79965657&_dad=portal&_schema=PORTAL
+Whatever coordinates we had
+
+
+Gay Village:  
+Saint-Hubert to Papineau, around Sainte-Catherine
+Source: http://ville.montreal.qc.ca/portal/page?_pageid=7317,79993591&_dad=portal&_schema=PORTAL
+45.5225626,-73.552297
+45.5154456,-73.5588874
+
+
+Plateau: 
+Corners du Parc and Sherbrooke, Bernard and du Parc, Masson and de Lorimier, Sherbrooke and Hogan
+Source: http://ville.montreal.qc.ca/pls/portal/docs/page/lib_arr_fr/media/documents/carte_arr_pmr.pdf
+45.5083689,-73.571288
+45.523683,-73.605523
+45.5394978,-73.581831
+45.5384869,-73.5600707
+
+
+Outremont:
+Corners Mont-Royal and Vincent-D'Indy, Bates and Pratt, Durcocher and Van Horne, Villeneuve and Nelson
+Source: http://ville.montreal.qc.ca/pls/portal/docs/page/lib_arr_fr/media/documents/carte_arr_out.pdf
+45.5100436,-73.6116584
+45.5170896,-73.6265568
+45.5243897,-73.6113895
+45.5168201,-73.5935993
+
+
+Westmount:
+Corners Claremont and St-Catherine, Dorchester and Atwater, Summit circle and Sunnyside, Summit Crescent and Devon, Westmount Ave and Claremont
+Source: http://westmount.org/about-the-city/maps-landmarks/
+45.4758723,-73.6021969
+45.4880136,-73.5830917
+45.4895681,-73.607528
+45.4907769,-73.615131
+45.4800412,-73.6114921
+
+
+Hochelaga-Maisonneuve:
+Corners Ste-Catherine and Moreau, Moreau and Sherbrooke, Pierre-de-Coubertin and Bennett, Ste-Catherine and Morgan
+Source: http://ville.montreal.qc.ca/portal/page?_pageid=9417,112699637&_dad=portal&_schema=PORTAL
+45.5377389,-73.5421315
+45.5424521,-73.5579556
+45.5582896,-73.5487811
+45.551642,-73.533546
+
+
+Montreal Nord:
+Corners Gouin and Wilfrid-Saint-Louis, Mont-Joli and Saint-Michel, Langelier and Henri-Bourassa, Gouin and Langelier
+Source: http://ville.montreal.qc.ca/pls/portal/docs/page/lib_arr_fr/media/documents/carte_arr_mno.pdf
+45.583204,-73.6523514
+45.5777561,-73.6404374
+45.610674,-73.6078028
+45.6258078,-73.6239303
