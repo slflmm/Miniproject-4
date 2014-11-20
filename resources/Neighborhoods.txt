@@ -60,7 +60,7 @@ Source: http://westmount.org/about-the-city/maps-landmarks/
 45.4800412,-73.6114921
 
 
-Hochelaga-Maisonneuve:
+Hochelaga:
 Corners Ste-Catherine and Moreau, Moreau and Sherbrooke, Pierre-de-Coubertin and Bennett, Ste-Catherine and Morgan
 Source: http://ville.montreal.qc.ca/portal/page?_pageid=9417,112699637&_dad=portal&_schema=PORTAL
 45.5377389,-73.5421315
