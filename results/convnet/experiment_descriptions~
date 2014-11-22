@@ -1,0 +1,1 @@
+Experiment number: Experiment number: 1Learning rate: 0.2Filter shapes: [(32, 1, 7, 7)]Image shapes: [(256, 1, 100, 100)]Downsampling: [(2, 2)]Hidden layers: [2]
