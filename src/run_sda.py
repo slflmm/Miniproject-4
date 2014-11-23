@@ -435,12 +435,18 @@ def test_SdA(finetune_lr=0.1, pretraining_epochs=20,
     print '... building the model'
 
     # Setup
+
+    experiment = 3 # Make sure to change this for each experiment!!!       
     pretrain_lr = 0.001 
     pretraining_epochs = 20 
     finetune_lr = 0.1
-    training_epochs = 500 
-    hidden_layers = [500,500]    
-    corruption_levels = [.1, .2, .3]
+    training_epochs = 120 
+    hidden_layers = [500,500,500]    
+    corruption_levels = [.2, .3, .4]
+
+    params = [experiment, pretrain_lr, pretraining_epochs, finetune_lr, training_epochs, hidden_layers, corruption_levels]
+    param_titles = ["Experiment number: ", "Pretrain learning rate: ", "Pretraining epochs: ", "Finetune learning rate: ", \
+    "Training epochs: ", "Hidden layers: ", "Layer corruption: "]
 
     # construct the stacked denoising autoencoder class
     sda = SdA(
@@ -449,12 +455,6 @@ def test_SdA(finetune_lr=0.1, pretraining_epochs=20,
         hidden_layers_sizes=hidden_layers,
         n_outs=9
     )
-
-    experiment = 1 # Make sure to change this for each experiment!!!
-       
-    params = [experiment, pretrain_lr, pretraining_epochs, finetune_lr, training_epochs, hidden_layers, corruption_levels]
-    param_titles = ["Experiment number: ", "Pretrain learning rate: ", "Pretraining epochs: ", "Finetune learning rate: ", \
-    "Training epochs: ", "Hidden layers: ", "Layer corruption: "]
 
     # end-snippet-3 start-snippet-4
     #########################
@@ -554,9 +554,9 @@ def test_SdA(finetune_lr=0.1, pretraining_epochs=20,
                     # generate the test outputs.
                     outputs = test_outputs()
                     
-            if patience <= iter:
-                done_looping = True
-                break
+            #if patience <= iter:
+            #    done_looping = True
+            #    break
 
     end_time = time.clock()
     print(

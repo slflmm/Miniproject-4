@@ -1,0 +1,14 @@
+Experiment number: 1
+Pretrain learning rate: 0.001
+Pretraining epochs: 20
+Finetune learning rate: 0.1
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.1, 0.2, 0.3]
+Experiment number: 2
+Pretrain learning rate: 0.001
+Pretraining epochs: 20
+Finetune learning rate: 0.1
+Training epochs: 120
+Hidden layers: [500, 500, 500]
+Layer corruption: [0.1, 0.2, 0.3]

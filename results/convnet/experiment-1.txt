@@ -5,3 +5,36 @@ Starting validation...
 Building convnet...
 Making the trainer...
 Training...
+EPOCH 10:
+Training error is 0.708889
+Validation error is 0.714983
+EPOCH 20:
+Training error is 0.577413
+Validation error is 0.593331
+EPOCH 30:
+Training error is 0.511493
+Validation error is 0.550363
+EPOCH 40:
+Training error is 0.458229
+Validation error is 0.522740
+EPOCH 50:
+Training error is 0.422066
+Validation error is 0.506557
+EPOCH 60:
+Training error is 0.353837
+Validation error is 0.472238
+EPOCH 70:
+Training error is 0.354705
+Validation error is 0.490374
+EPOCH 80:
+Training error is 0.331354
+Validation error is 0.495815
+EPOCH 90:
+Training error is 0.311128
+Validation error is 0.494838
+EPOCH 100:
+Training error is 0.285712
+Validation error is 0.475028
+Finished training!
+ The code ran for 176.98m.
+Best validation error: 0.472238

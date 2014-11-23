@@ -6,7 +6,7 @@ from utils import *
 # -----------------
 # SETUP
 # -----------------
-experiment = 4
+experiment = 3
 n_epochs = 100
 batch_size = 256
 activation = 'ReLU'
