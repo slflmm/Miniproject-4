@@ -7,13 +7,13 @@ import numpy as np
 # # Loading data
 # # ------------------------
 print "Loading data..."
-test_X = np.load('/Users/ssruan/courses/comp598/finalproject/Archive/test_X.npy')
+test_X = np.load('/home/ml/slafla2/Miniproject-4/numpy_data/test_X.npy')
 #test_X = test_X.reshape((len(test_X),200*200))
-test_y = np.load('/Users/ssruan/courses/comp598/finalproject/Archive/test_y.npy')
+test_y = np.load('/home/ml/slafla2/Miniproject-4/numpy_data/test_y.npy')
 
-train_X = np.load('/Users/ssruan/courses/comp598/finalproject/Archive/train_X.npy')
+train_X = np.load('/home/ml/slafla2/Miniproject-4/numpy_data/train_X.npy')
 #train_X = train_X.reshape((len(train_X),200*200))
-train_y = np.load('/Users/ssruan/courses/comp598/finalproject/Archive/train_y.npy')
+train_y = np.load('/home/ml/slafla2/Miniproject-4/numpy_data/train_y.npy')
 
 
 # # ------------------------
@@ -51,7 +51,7 @@ for n_iter in n_iters:
 		success_rates = []
 		train_success_rates = []
 		# do coss-validation with current parameters
-		for data in CrossValidation(examples, categories, k=5):
+		for data in CrossValidation(train_X, train_y, k=5):
 		    train_data, train_result, valid_data, valid_result = data
 
 		    classifier = Perceptron(alpha=alpha, n_iter=n_iter)
@@ -79,8 +79,8 @@ for n_iter in n_iters:
 		cross_val_train_results.append(train_success_ratio)
 
 # save all the interesting results
-np.save('/Users/ssruan/courses/comp598/finalproject/Miniproject-4/results/perceptron/crossval_results', cross_val_results)
-np.save('/Users/ssruan/courses/comp598/finalproject/Miniproject-4/results/perceptron/crossval_training_accuracy', cross_val_train_results)
+np.save('/home/ml/slafla2/Miniproject-4/results/perceptron/crossval_results', cross_val_results)
+np.save('/home/ml/slafla2/Miniproject-4/results/perceptron/crossval_training_accuracy', cross_val_train_results)
 
 
 
