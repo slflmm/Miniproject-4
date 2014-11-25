@@ -6,12 +6,12 @@ from utils import *
 # -----------------
 # SETUP
 # -----------------
-experiment = 4
+experiment = 11
 n_epochs = 100
 batch_size = 256
 activation = 'ReLU'
-filter_shapes = [(32, 1, 9, 9), (64, 32, 6, 6),(80, 64, 5, 5), (80,80,5,5)]
-image_shapes = [(batch_size, 1,100,100),(batch_size, 32, 23, 23), (batch_size, 64, 9, 9)]
+filter_shapes = [(32, 1, 9, 9), (64, 32, 8, 8),(80, 64, 5, 5), (80,80,5,5)]
+image_shapes = [(batch_size, 1,100,100),(batch_size, 32, 23, 23), (batch_size, 64, 8, 8)]
 downsampling = [(4,4),(2,2), None,None]
 hidden_layers = [500, 500]
 learning_rate = 0.05

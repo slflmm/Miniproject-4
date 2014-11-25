@@ -65,7 +65,9 @@ class SdA(object):
         n_ins=784,
         hidden_layers_sizes=[2, 2],
         n_outs=9,
-        corruption_levels=[0.1, 0.1]
+        corruption_levels=[0.1, 0.1],
+        L1_reg = 0.0,
+        L2_reg = 0.0
     ):
         """ This class is made to support a variable number of layers.
 
@@ -169,11 +171,14 @@ class SdA(object):
         )
 
         self.params.extend(self.logLayer.params)
+
+        self.L1 = (sum([ abs(layer.W).sum() for layer in self.sigmoid_layers ]) + abs(self.logLayer.W).sum() )
+        self.L2 = (sum([ (layer.W**2).sum() for layer in self.sigmoid_layers ]) + (self.logLayer.W**2).sum() )
         # construct a function that implements one step of finetunining
 
         # compute the cost for second phase of training,
         # defined as the negative log likelihood
-        self.finetune_cost = self.logLayer.negative_log_likelihood(self.y)
+        self.finetune_cost = self.logLayer.negative_log_likelihood(self.y) + self.L1*L1_reg + self.L2*L2_reg
         # compute the gradients with respect to the model parameters
         # symbolic variable that points to the number of errors made on the
         # minibatch given by self.x and self.y
@@ -436,24 +441,29 @@ def test_SdA(finetune_lr=0.1, pretraining_epochs=20,
 
     # Setup
 
-    experiment = 3 # Make sure to change this for each experiment!!!       
-    pretrain_lr = 0.001 
+    experiment = 12 # Make sure to change this for each experiment!!!       
+    pretrain_lr = 0.005 
     pretraining_epochs = 20 
-    finetune_lr = 0.1
+    finetune_lr = 0.2
     training_epochs = 120 
-    hidden_layers = [500,500,500]    
-    corruption_levels = [.2, .3, .4]
+    hidden_layers = [500,500]    
+    corruption_levels = [.25, .25, .25]
+    L1_reg = 0.001
+    L2_reg = 0.0
 
-    params = [experiment, pretrain_lr, pretraining_epochs, finetune_lr, training_epochs, hidden_layers, corruption_levels]
+    params = [experiment, pretrain_lr, pretraining_epochs, finetune_lr, training_epochs, \
+    hidden_layers, corruption_levels, L1_reg, L2_reg]
     param_titles = ["Experiment number: ", "Pretrain learning rate: ", "Pretraining epochs: ", "Finetune learning rate: ", \
-    "Training epochs: ", "Hidden layers: ", "Layer corruption: "]
+    "Training epochs: ", "Hidden layers: ", "Layer corruption: ", "L1: ", "L2: "]
 
     # construct the stacked denoising autoencoder class
     sda = SdA(
         numpy_rng=numpy_rng,
         n_ins= 100*100,
         hidden_layers_sizes=hidden_layers,
-        n_outs=9
+        n_outs=9,
+        L1_reg=L1_reg,
+        L2_reg=L2_reg
     )
 
     # end-snippet-3 start-snippet-4

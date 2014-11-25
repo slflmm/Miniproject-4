@@ -24,3 +24,73 @@ Downsampling: [(4, 4), (2, 2), None, None]
 Hidden layers: [500, 500]
 
 
+Experiment number: 4
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9)]
+Downsampling: [(4, 4), (2, 2), None, None]
+Hidden layers: [500, 500]
+
+
+Experiment number: 5
+Batch size: 256
+Learning rate: 0.025
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9)]
+Downsampling: [(4, 4), (2, 2), None, None]
+Hidden layers: [500, 500]
+
+
+Experiment number: 6
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 7, 7), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 46, 46), (256, 64, 20, 20)]
+Downsampling: [(2, 2), (2, 2), (2, 2), (2, 2)]
+Hidden layers: [500, 500]
+
+
+Experiment number: 7
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 18, 18)]
+Downsampling: [(4, 4), None, None, None]
+Hidden layers: [500, 500]
+
+
+Experiment number: 8
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 4, 4), (80, 80, 3, 3), (80, 80, 3, 3)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9), (256, 80, 6, 6)]
+Downsampling: [(4, 4), (2, 2), None, None, None]
+Hidden layers: [500, 500]
+
+
+Experiment number: 9
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 4, 4), (80, 80, 3, 3), (80, 80, 3, 3)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9), (256, 80, 6, 6)]
+Downsampling: [(4, 4), (2, 2), None, None, None]
+Hidden layers: [500, 500]
+
+
+Experiment number: 10
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9)]
+Downsampling: [(4, 4), (2, 2), None, None]
+Hidden layers: [500, 500]
+
+

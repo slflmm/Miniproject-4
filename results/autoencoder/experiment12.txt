@@ -1,0 +1,18 @@
+Loading train input...
+Loading train output...
+Loading test input...
+Loading test output...
+... building the model
+... getting the pretraining functions
+... pre-training the model
+Pre-training layer 0, epoch 0, cost  6648.31897674
+Pre-training layer 0, epoch 1, cost  6479.87720638
+Pre-training layer 0, epoch 2, cost  6422.31964414
+Pre-training layer 0, epoch 3, cost  6388.15358118
+Pre-training layer 0, epoch 4, cost  6365.50079806
+Pre-training layer 0, epoch 5, cost  6348.27239766
+Pre-training layer 0, epoch 6, cost  6334.28422878
+Pre-training layer 0, epoch 7, cost  6322.59194253
+Pre-training layer 0, epoch 8, cost  6312.43416068
+Pre-training layer 0, epoch 9, cost  6303.40535535
+Pre-training layer 0, epoch 10, cost  6295.28467085
