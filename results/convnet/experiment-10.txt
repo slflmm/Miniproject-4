@@ -35,6 +35,36 @@ Validation error is 0.453125
 EPOCH 100:
 Training error is 0.394323
 Validation error is 0.458287
+EPOCH 110:
+Training error is 0.367622
+Validation error is 0.448242
+EPOCH 120:
+Training error is 0.358351
+Validation error is 0.438756
+EPOCH 130:
+Training error is 0.342708
+Validation error is 0.439314
+EPOCH 140:
+Training error is 0.335920
+Validation error is 0.444336
+EPOCH 150:
+Training error is 0.317101
+Validation error is 0.433175
+EPOCH 160:
+Training error is 0.317760
+Validation error is 0.450056
+EPOCH 170:
+Training error is 0.283090
+Validation error is 0.428153
+EPOCH 180:
+Training error is 0.286962
+Validation error is 0.433873
+EPOCH 190:
+Training error is 0.280365
+Validation error is 0.446987
+EPOCH 200:
+Training error is 0.257413
+Validation error is 0.433315
 Finished training!
- The code ran for 179.41m.
-Best validation error: 0.453125
+ The code ran for 358.68m.
+Best validation error: 0.428153
