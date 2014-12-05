@@ -14,3 +14,27 @@ Validation error is 0.755301
 EPOCH 30:
 Training error is 0.659045
 Validation error is 0.673828
+EPOCH 40:
+Training error is 0.603854
+Validation error is 0.618025
+EPOCH 50:
+Training error is 0.554323
+Validation error is 0.576451
+EPOCH 60:
+Training error is 0.494323
+Validation error is 0.520926
+EPOCH 70:
+Training error is 0.468385
+Validation error is 0.508231
+EPOCH 80:
+Training error is 0.435243
+Validation error is 0.486328
+EPOCH 90:
+Training error is 0.410573
+Validation error is 0.478376
+EPOCH 100:
+Training error is 0.392865
+Validation error is 0.473772
+Finished training!
+ The code ran for 197.37m.
+Best validation error: 0.473772

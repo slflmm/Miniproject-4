@@ -94,3 +94,23 @@ Downsampling: [(4, 4), (2, 2), None, None]
 Hidden layers: [500, 500]
 
 
+Experiment number: 11
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 8, 8), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 8, 8)]
+Downsampling: [(4, 4), (2, 2), None, None]
+Hidden layers: [500, 500]
+
+
+Experiment number: 12
+Batch size: 256
+Learning rate: 0.05
+Activation: ReLU
+Filter shapes: [(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 5, 5), (80, 80, 5, 5)]
+Image shapes: [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9)]
+Downsampling: [(4, 4), (2, 2), None, None]
+Hidden layers: [500, 500]
+
+

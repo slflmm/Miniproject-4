@@ -1,0 +1,141 @@
+Loading train input...
+Loading train output...
+Loading test input...
+Loading test output...
+... building the model
+... getting the pretraining functions
+... pre-training the model
+Pre-training layer 0, epoch 0, cost  6588.71755524
+Pre-training layer 0, epoch 1, cost  6427.02288177
+Pre-training layer 0, epoch 2, cost  6375.32777909
+Pre-training layer 0, epoch 3, cost  6345.12187412
+Pre-training layer 0, epoch 4, cost  6323.89544245
+Pre-training layer 0, epoch 5, cost  6307.56319455
+Pre-training layer 0, epoch 6, cost  6294.25322031
+Pre-training layer 0, epoch 7, cost  6283.01456685
+Pre-training layer 0, epoch 8, cost  6273.28947772
+Pre-training layer 0, epoch 9, cost  6264.62446776
+Pre-training layer 0, epoch 10, cost  6256.92200709
+Pre-training layer 0, epoch 11, cost  6249.8624247
+Pre-training layer 0, epoch 12, cost  6243.45436777
+Pre-training layer 0, epoch 13, cost  6237.55500259
+Pre-training layer 0, epoch 14, cost  6232.1067202
+Pre-training layer 0, epoch 15, cost  6226.96769313
+Pre-training layer 0, epoch 16, cost  6222.17604733
+Pre-training layer 0, epoch 17, cost  6217.63341806
+Pre-training layer 0, epoch 18, cost  6213.3993395
+Pre-training layer 0, epoch 19, cost  6209.38616045
+Pre-training layer 1, epoch 0, cost  316.806372666
+Pre-training layer 1, epoch 1, cost  266.899737537
+Pre-training layer 1, epoch 2, cost  252.368003289
+Pre-training layer 1, epoch 3, cost  243.933439166
+Pre-training layer 1, epoch 4, cost  238.314570655
+Pre-training layer 1, epoch 5, cost  234.138858711
+Pre-training layer 1, epoch 6, cost  230.988312007
+Pre-training layer 1, epoch 7, cost  228.41612019
+Pre-training layer 1, epoch 8, cost  226.348050229
+Pre-training layer 1, epoch 9, cost  224.633053126
+Pre-training layer 1, epoch 10, cost  223.174971518
+Pre-training layer 1, epoch 11, cost  221.919398968
+Pre-training layer 1, epoch 12, cost  220.814807926
+Pre-training layer 1, epoch 13, cost  219.844115064
+Pre-training layer 1, epoch 14, cost  218.966675024
+Pre-training layer 1, epoch 15, cost  218.23926489
+Pre-training layer 1, epoch 16, cost  217.521848843
+Pre-training layer 1, epoch 17, cost  216.868948373
+Pre-training layer 1, epoch 18, cost  216.295742458
+Pre-training layer 1, epoch 19, cost  215.796372366
+... getting the finetuning functions
+... finetunning the model
+epoch 1, minibatch 225/225, training error 74.888889 %
+epoch 1, minibatch 225/225, validation error 75.990513 %
+epoch 2, minibatch 225/225, training error 72.652778 %
+epoch 2, minibatch 225/225, validation error 74.037388 %
+epoch 3, minibatch 225/225, training error 71.449653 %
+epoch 3, minibatch 225/225, validation error 73.339844 %
+epoch 4, minibatch 225/225, training error 70.802083 %
+epoch 4, minibatch 225/225, validation error 72.726004 %
+epoch 5, minibatch 225/225, training error 70.560764 %
+epoch 5, minibatch 225/225, validation error 72.154018 %
+epoch 6, minibatch 225/225, training error 70.649306 %
+epoch 6, minibatch 225/225, validation error 72.237723 %
+epoch 7, minibatch 225/225, training error 70.894097 %
+epoch 7, minibatch 225/225, validation error 72.656250 %
+epoch 8, minibatch 225/225, training error 71.302083 %
+epoch 8, minibatch 225/225, validation error 72.991071 %
+epoch 9, minibatch 225/225, training error 71.727431 %
+epoch 9, minibatch 225/225, validation error 73.590960 %
+epoch 10, minibatch 225/225, training error 72.281250 %
+epoch 10, minibatch 225/225, validation error 74.135045 %
+epoch 11, minibatch 225/225, training error 73.144097 %
+epoch 11, minibatch 225/225, validation error 74.595424 %
+epoch 12, minibatch 225/225, training error 73.928819 %
+epoch 12, minibatch 225/225, validation error 75.223214 %
+epoch 13, minibatch 225/225, training error 74.545139 %
+epoch 13, minibatch 225/225, validation error 75.795201 %
+epoch 14, minibatch 225/225, training error 75.371528 %
+epoch 14, minibatch 225/225, validation error 76.325335 %
+epoch 15, minibatch 225/225, training error 76.347222 %
+epoch 15, minibatch 225/225, validation error 77.301897 %
+epoch 16, minibatch 225/225, training error 77.564236 %
+epoch 16, minibatch 225/225, validation error 78.445871 %
+epoch 17, minibatch 225/225, training error 78.979167 %
+epoch 17, minibatch 225/225, validation error 79.799107 %
+epoch 18, minibatch 225/225, training error 80.015625 %
+epoch 18, minibatch 225/225, validation error 80.482701 %
+epoch 19, minibatch 225/225, training error 80.861111 %
+epoch 19, minibatch 225/225, validation error 81.501116 %
+epoch 20, minibatch 225/225, training error 82.677083 %
+epoch 20, minibatch 225/225, validation error 83.231027 %
+epoch 21, minibatch 225/225, training error 84.024306 %
+epoch 21, minibatch 225/225, validation error 84.737723 %
+epoch 22, minibatch 225/225, training error 84.727431 %
+epoch 22, minibatch 225/225, validation error 85.086496 %
+epoch 23, minibatch 225/225, training error 85.588542 %
+epoch 23, minibatch 225/225, validation error 86.063058 %
+epoch 24, minibatch 225/225, training error 86.562500 %
+epoch 24, minibatch 225/225, validation error 86.690848 %
+epoch 25, minibatch 225/225, training error 86.722222 %
+epoch 25, minibatch 225/225, validation error 86.718750 %
+epoch 26, minibatch 225/225, training error 86.236111 %
+epoch 26, minibatch 225/225, validation error 86.342076 %
+epoch 27, minibatch 225/225, training error 87.336806 %
+epoch 27, minibatch 225/225, validation error 87.179129 %
+epoch 28, minibatch 225/225, training error 88.833333 %
+epoch 28, minibatch 225/225, validation error 88.699777 %
+epoch 29, minibatch 225/225, training error 88.857639 %
+epoch 29, minibatch 225/225, validation error 88.755580 %
+epoch 30, minibatch 225/225, training error 88.857639 %
+epoch 30, minibatch 225/225, validation error 88.755580 %
+epoch 31, minibatch 225/225, training error 88.857639 %
+epoch 31, minibatch 225/225, validation error 88.755580 %
+epoch 32, minibatch 225/225, training error 88.857639 %
+epoch 32, minibatch 225/225, validation error 88.755580 %
+epoch 33, minibatch 225/225, training error 86.477431 %
+epoch 33, minibatch 225/225, validation error 86.495536 %
+epoch 34, minibatch 225/225, training error 88.802083 %
+epoch 34, minibatch 225/225, validation error 88.713728 %
+epoch 35, minibatch 225/225, training error 88.796875 %
+epoch 35, minibatch 225/225, validation error 88.713728 %
+epoch 36, minibatch 225/225, training error 88.796875 %
+epoch 36, minibatch 225/225, validation error 88.713728 %
+epoch 37, minibatch 225/225, training error 88.796875 %
+epoch 37, minibatch 225/225, validation error 88.713728 %
+epoch 38, minibatch 225/225, training error 88.796875 %
+epoch 38, minibatch 225/225, validation error 88.713728 %
+epoch 39, minibatch 225/225, training error 88.796875 %
+epoch 39, minibatch 225/225, validation error 88.713728 %
+epoch 40, minibatch 225/225, training error 88.796875 %
+epoch 40, minibatch 225/225, validation error 88.713728 %
+epoch 41, minibatch 225/225, training error 88.796875 %
+epoch 41, minibatch 225/225, validation error 88.713728 %
+epoch 42, minibatch 225/225, training error 88.796875 %
+epoch 42, minibatch 225/225, validation error 88.713728 %
+epoch 43, minibatch 225/225, training error 88.796875 %
+epoch 43, minibatch 225/225, validation error 88.713728 %
+epoch 44, minibatch 225/225, training error 88.796875 %
+epoch 44, minibatch 225/225, validation error 88.713728 %
+epoch 45, minibatch 225/225, training error 88.796875 %
+epoch 45, minibatch 225/225, validation error 88.713728 %
+epoch 46, minibatch 225/225, training error 88.796875 %
+epoch 46, minibatch 225/225, validation error 88.713728 %

@@ -5,6 +5,7 @@ Finetune learning rate: 0.1
 Training epochs: 120
 Hidden layers: [500, 500]
 Layer corruption: [0.1, 0.2, 0.3]
+
 Experiment number: 2
 Pretrain learning rate: 0.001
 Pretraining epochs: 20
@@ -12,6 +13,7 @@ Finetune learning rate: 0.1
 Training epochs: 120
 Hidden layers: [500, 500, 500]
 Layer corruption: [0.1, 0.2, 0.3]
+
 Experiment number: 3
 Pretrain learning rate: 0.001
 Pretraining epochs: 20
@@ -19,6 +21,7 @@ Finetune learning rate: 0.1
 Training epochs: 120
 Hidden layers: [500, 500, 500]
 Layer corruption: [0.2, 0.3, 0.4]
+
 Experiment number: 4
 Pretrain learning rate: 0.001
 Pretraining epochs: 20
@@ -26,6 +29,7 @@ Finetune learning rate: 0.2
 Training epochs: 120
 Hidden layers: [500, 500, 500]
 Layer corruption: [0.1, 0.2, 0.3]
+
 Experiment number: 5
 Pretrain learning rate: 0.001
 Pretraining epochs: 20
@@ -33,6 +37,7 @@ Finetune learning rate: 0.2
 Training epochs: 120
 Hidden layers: [500, 500, 500]
 Layer corruption: [0.3, 0.4, 0.5]
+
 Experiment number: 6
 Pretrain learning rate: 0.001
 Pretraining epochs: 20
@@ -40,13 +45,15 @@ Finetune learning rate: 0.2
 Training epochs: 120
 Hidden layers: [250, 250, 250]
 Layer corruption: [0.1, 0.2, 0.3]
-Experiment number: 6
+
+Experiment number: 7 Not in table
 Pretrain learning rate: 0.001
 Pretraining epochs: 20
 Finetune learning rate: 0.2
 Training epochs: 120
 Hidden layers: [250, 250, 250]
 Layer corruption: [0.1, 0.2, 0.3]
+
 Experiment number: 8
 Pretrain learning rate: 0.005
 Pretraining epochs: 20
@@ -54,6 +61,7 @@ Finetune learning rate: 0.2
 Training epochs: 120
 Hidden layers: [500, 500, 500]
 Layer corruption: [0.1, 0.2, 0.3]
+
 Experiment number: 9
 Pretrain learning rate: 0.005
 Pretraining epochs: 20
@@ -61,17 +69,89 @@ Finetune learning rate: 0.2
 Training epochs: 120
 Hidden layers: [500, 500, 500]
 Layer corruption: [0.25, 0.25, 0.25]
-Experiment number: 10      
+
+Experiment number: 10   Not in table   
 Pretrain learning rate: 0.005
 Pretraining epochs: 20
 Finetune learning rate: 0.2
 Training epochs: 500
 Hidden layers: [1500, 1500, 1500]
 Layer corruption: [0.25, 0.25, 0.25]
+
 Experiment number: 11
 Pretrain learning rate: 0.005
 Pretraining epochs: 20
 Finetune learning rate: 0.2
-Training epochs: 500
+Training epochs: 120
 Hidden layers: [1500, 1500]
 Layer corruption: [0.25, 0.25, 0.25]
+
+Experiment number: 12
+Pretrain learning rate: 0.005
+Pretraining epochs: 20
+Finetune learning rate: 0.2
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.25, 0.25, 0.25]
+L1: 1e-05
+L2: 0.0
+
+Experiment number: 13
+Pretrain learning rate: 0.005
+Pretraining epochs: 20
+Finetune learning rate: 0.2
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.25, 0.25, 0.25]
+L1: 1e-05
+L2: 1e-05
+
+Experiment number: 14
+Pretrain learning rate: 0.005
+Pretraining epochs: 5
+Finetune learning rate: 0.2
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.25, 0.25, 0.25]
+L1: 0.0
+L2: 0.0
+
+Experiment number: 15
+Pretrain learning rate: 0.005
+Pretraining epochs: 20
+Finetune learning rate: 0.2
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.35, 0.35, 0.35]
+L1: 0.0
+L2: 0.0
+
+Experiment number: 16
+Pretrain learning rate: 0.005
+Pretraining epochs: 20
+Finetune learning rate: 0.2
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.35, 0.35, 0.35]
+L1: 0.0
+L2: 0.0001
+
+Experiment number: 17
+Pretrain learning rate: 0.005
+Pretraining epochs: 20
+Finetune learning rate: 0.05
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.35, 0.35, 0.35]
+L1: 0.0001
+L2: 0.0001
+
+Experiment number: 18
+Pretrain learning rate: 0.001
+Pretraining epochs: 5
+Finetune learning rate: 0.05
+Training epochs: 120
+Hidden layers: [500, 500]
+Layer corruption: [0.35, 0.35, 0.35]
+L1: 0.0001
+L2: 0.0001
