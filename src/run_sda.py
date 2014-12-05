@@ -441,15 +441,15 @@ def test_SdA(finetune_lr=0.1, pretraining_epochs=20,
 
     # Setup
 
-    experiment = 12 # Make sure to change this for each experiment!!!       
+    experiment = 19 # Make sure to change this for each experiment!!!       
     pretrain_lr = 0.005 
     pretraining_epochs = 20 
     finetune_lr = 0.2
     training_epochs = 120 
-    hidden_layers = [500,500]    
-    corruption_levels = [.25, .25, .25]
-    L1_reg = 0.001
-    L2_reg = 0.0
+    hidden_layers = [1500,1500]    
+    corruption_levels = [.25, .25, .35]
+    L1_reg = 0.0001
+    L2_reg = 0.0001
 
     params = [experiment, pretrain_lr, pretraining_epochs, finetune_lr, training_epochs, \
     hidden_layers, corruption_levels, L1_reg, L2_reg]

@@ -2,17 +2,18 @@ from theano_classifier import *
 from theano_convnet import *
 from theano_utils import *
 from utils import *
+import pickle
 
 # -----------------
 # SETUP
 # -----------------
-experiment = 11
-n_epochs = 100
+experiment = 15
+n_epochs = 10
 batch_size = 256
 activation = 'ReLU'
-filter_shapes = [(32, 1, 9, 9), (64, 32, 8, 8),(80, 64, 5, 5), (80,80,5,5)]
-image_shapes = [(batch_size, 1,100,100),(batch_size, 32, 23, 23), (batch_size, 64, 8, 8)]
-downsampling = [(4,4),(2,2), None,None]
+filter_shapes =[(32, 1, 9, 9), (64, 32, 6, 6), (80, 64, 5, 5), (80, 80, 5, 5)]
+image_shapes = [(256, 1, 100, 100), (256, 32, 23, 23), (256, 64, 9, 9)]
+downsampling = [(4,4),(2,2), None, None]
 hidden_layers = [500, 500]
 learning_rate = 0.05
 params = [experiment, batch_size, learning_rate, activation, filter_shapes, image_shapes, downsampling, hidden_layers]
@@ -38,6 +39,8 @@ print "Starting validation..."
 
 train_data, train_result = examples[7200:,:], categories[7200:]
 valid_data, valid_result = examples[:7200,:], categories[:7200]
+pad_test = np.zeros((7424, test_examples.shape[1]))
+pad_test[:7200] = test_examples
 
 print 'Building convnet...'
 net = ConvNet(rng = np.random.RandomState(1234),
@@ -61,7 +64,7 @@ net = ConvNet(rng = np.random.RandomState(1234),
 	train_set_y=train_result,
 	valid_set_x=valid_data,
 	valid_set_y=valid_result,
-	test_set = test_examples
+	test_set = pad_test
 	)
 print 'Making the trainer...'
 learner = Trainer(net)
@@ -72,6 +75,13 @@ best_val, best_val_pred, best_pred = learner.train(learning_rate,n_epochs,batch_
 print "Best validation error: %f" % best_val
 
 np.save('/home/ml/slafla2/Miniproject-4/results/convnet/experiment_predictions-%d' % experiment, np.asarray(best_pred).flatten())
+
+ws = pickle.load('/home/ml/slafla2/Miniproject-4/results/convnet/weights_.pkl')
+
+for i,w in enumerate(ws):
+	if w.ndim == 4:
+		image = numpy.hstack(numpy.hstack(w))
+		scipy.misc.imsave('kernel_%d.png'%(i), w)
 
 f = open('/home/ml/slafla2/Miniproject-4/results/convnet/experiment_descriptions', 'a')
 for param_title, param in zip(param_titles, params):

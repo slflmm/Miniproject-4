@@ -87,8 +87,8 @@ for n_iter in n_iters:
 		cross_val_train_results.append(train_success_ratio)
 
 # save all the interesting results
-np.save('/home/ml/slafla2/Miniproject-4/results/perceptron/crossval_results_normalized', cross_val_results)
-np.save('/home/ml/slafla2/Miniproject-4/results/perceptron/crossval_training_accuracy_normalized', cross_val_train_results)
+np.save('/home/ml/slafla2/Miniproject-4/results/perceptron/crossval_results', cross_val_results)
+np.save('/home/ml/slafla2/Miniproject-4/results/perceptron/crossval_training_accuracy', cross_val_train_results)
 
 
 
