@@ -1,0 +1,192 @@
+% When adding to this file, please put references in the appropriate section (make a new section if need be) and comment on the value of the paper so that others can understand.
+
+% ------------------
+% Intro stuff
+% ------------------
+
+@inproceedings{Doersch,
+title={What makes Paris look like Paris?},
+author={Doersch, Carl and Singh, Saurabh and Gupta, Abhinav and Sivic, Josef and Efros, Alexei A},
+booktitle={ACM Transactions on Graphics (SIGGRAPH)},
+volume={31},
+number={4},
+pages={101},
+year={2012},
+organization={ACM}
+}
+
+@incollection{Knopp,
+title={Avoiding confusing features in place recognition},
+author={Knopp, Jan and Sivic, Josef and Pajdla, Tomas},
+booktitle={Computer Vision--ECCV 2010},
+pages={748--761},
+year={2010},
+publisher={Springer Berlin Heidelberg}
+}
+
+
+
+% ------------------
+% Cross-validation
+% ------------------
+
+% Turns out random search for hyper-parameter optimization works both:
+% (1) As well or better than gridsearch
+% (2) Much faster than gridsearch
+% (Gridsearch being the usual method for optimizing multiple parameters)
+% This is especially useful for neural nets, where we have many hyperparameters to tune and training may be slow.
+@article{Bergstra,
+ title={Random search for hyper-parameter optimization},
+ author={Bergstra, James and Bengio, Yoshua},
+ journal={The Journal of Machine Learning Research},
+ volume={13},
+ number={1},
+ pages={281--305},
+ year={2012},
+ publisher={JMLR. org}
+}
+
+% ------------------------------------
+% PERCEPTRON
+% ------------------------------------
+
+@book{Bishop,
+  title={Pattern recognition and machine learning},
+  author={Bishop, Christopher M and others},
+  volume={1},
+  year={2006},
+  publisher={springer New York}
+}
+
+
+% ------------------------------------
+% SDA
+% ------------------------------------
+
+@article{vincent2010,
+title={Stacked denoising autoencoders: Learning useful representations in a deep network with a local denoising criterion},
+author={Vincent, Pascal and Larochelle, Hugo and Lajoie, Isabelle and Bengio, Yoshua and Manzagol, Pierre-Antoine},
+journal={The Journal of Machine Learning Research},
+volume={11},
+pages={3371--3408},
+year={2010},
+publisher={JMLR. org}
+}
+
+@inproceedings{vincent2008,
+title={Extracting and composing robust features with denoising autoencoders},
+author={Vincent, Pascal and Larochelle, Hugo and Bengio, Yoshua and Manzagol, Pierre-Antoine},
+booktitle={Proceedings of the 25th international conference on Machine learning},
+pages={1096--1103},
+year={2008},
+organization={ACM}
+}
+
+@misc{larochelle,
+  author = {Hugo Larochelle},
+  title = {{Contenu du cours} Autoencodeurs},
+  year = 2013,
+  howpublished = {\url{http://info.usherbrooke.ca/hlarochelle/cours/ift725_A2014/contenu.html}},
+  note = {Accessed: 2014-11-30}
+}
+
+% ------------------------------------
+% CONVNET
+% ------------------------------------
+
+% Seminal dropout paper
+% With complicated relationship between input-output, and enough hidden units to model it... overfit.
+% Dropout prevents complex co-adaptations on training data
+% For each training case, hidden units are randomly omitted with probability 0.5 (can vary)
+% Basically efficient model averaging without cost of training many networks (a bit like bagging a bunch of networks)
+% Do stochastic gradient descent with mini batches, penalty on L2 norm of whole weight vector
+@article{Hinton,
+ title={Improving neural networks by preventing co-adaptation of feature detectors},
+ author={Hinton, Geoffrey E and Srivastava, Nitish and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan R},
+ journal={arXiv preprint arXiv:1207.0580},
+ year={2012}
+}
+
+% Original paper introducing convnets
+% Idea is to emulate human pattern-recognition in a neural net
+% Usually neural net results can be very affected by shift in position, distortion in shape (the case of our dataset!), so bad at patterns
+% Convolutions deal well with geometrical similarity regardless of position
+% go here for a clear explanation of how they work: http://deeplearning.net/tutorial/lenet.html
+@article{Fukushima,
+ title={Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position},
+ author={Fukushima, Kunihiko},
+ journal={Biological cybernetics},
+ volume={36},
+ number={4},
+ pages={193--202},
+ year={1980},
+ publisher={Springer}
+}
+
+% Yann LeCunn's convnet with good invariance to noise, minor rotations in MNIST
+@misc{LeCun,
+  author={LeCun, Yann},
+  title={LeNet-5, convolutional neural networks},
+  year=2004,
+  howpublished={\url{http://yann.lecun.com/exdb/lenet/index.html}},
+  note={Accessed: 2014-10-22}
+}
+
+
+% ReLU
+@inproceedings{Nair,
+ title={Rectified linear units improve restricted boltzmann machines},
+ author={Nair, Vinod and Hinton, Geoffrey E},
+ booktitle={Proceedings of the 27th International Conference on Machine Learning (ICML-10)},
+ pages={807--814},
+ year={2010}
+}
+ 
+% Deep convolutional neural networks for image classification
+% Used dropout in fully-connected layers (i.e. not the convolutions)
+% Won a competition by a very wide margin
+@inproceedings{Krizhevsky,
+ title={Imagenet classification with deep convolutional neural networks},
+ author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+ booktitle={Advances in neural information processing systems},
+ pages={1097--1105},
+ year={2012}
+}
+
+% some notes on conv net
+@article{bouvrie2006notes,
+  title={Notes on convolutional neural networks},
+  author={Bouvrie, Jake},
+  year={2006}
+}
+
+
+% ----------------
+% LIBRARIES
+% ----------------
+
+% Theano for flexible neural network implementation on GPU
+@inproceedings{Theano,
+    author = {Bergstra, James and Breuleux, Olivier and Bastien, Fr{\'{e}}d{\'{e}}ric and Lamblin, Pascal and Pascanu, Razvan and Desjardins, Guillaume and Turian, Joseph and Warde-Farley, David and Bengio, Yoshua},
+     month = jun,
+     title = {Theano: a {CPU} and {GPU} Math Expression Compiler},
+ booktitle = {Proceedings of the Python for Scientific Computing Conference ({SciPy})},
+      year = {2010},
+  location = {Austin, TX},
+      note = {Oral Presentation}
+}
+
+% CUDA-CONVNET for a very fast GPU implementation of convolution layer (can be used within Theano)--> also cite Krizhevsky
+
+% Scikit-learn for SVM
+@article{scikit-learn,
+title={Scikit-learn: Machine Learning in {P}ython},
+author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+        and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+        and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+        Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+journal={Journal of Machine Learning Research},
+volume={12},
+pages={2825--2830},
+year={2011}
+}

@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+
+\bibitem{Theano}
+J.~Bergstra, O.~Breuleux, F.~Bastien, P.~Lamblin, R.~Pascanu, G.~Desjardins,
+  J.~Turian, D.~Warde-Farley, and Y.~Bengio.
+\newblock Theano: a {CPU} and {GPU} math expression compiler.
+\newblock In {\em Proceedings of the Python for Scientific Computing Conference
+  ({SciPy})}, June 2010.
+\newblock Oral Presentation.
+
+\bibitem{Bishop}
+C.~M. Bishop et~al.
+\newblock {\em Pattern recognition and machine learning}, volume~1.
+\newblock springer New York, 2006.
+
+\bibitem{bouvrie2006notes}
+J.~Bouvrie.
+\newblock Notes on convolutional neural networks.
+\newblock 2006.
+
+\bibitem{Fukushima}
+K.~Fukushima.
+\newblock Neocognitron: A self-organizing neural network model for a mechanism
+  of pattern recognition unaffected by shift in position.
+\newblock {\em Biological cybernetics}, 36(4):193--202, 1980.
+
+\bibitem{Hinton}
+G.~E. Hinton, N.~Srivastava, A.~Krizhevsky, I.~Sutskever, and R.~R.
+  Salakhutdinov.
+\newblock Improving neural networks by preventing co-adaptation of feature
+  detectors.
+\newblock {\em arXiv preprint arXiv:1207.0580}, 2012.
+
+\bibitem{Krizhevsky}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{larochelle}
+H.~Larochelle.
+\newblock {Contenu du cours} autoencodeurs.
+\newblock
+  \url{http://info.usherbrooke.ca/hlarochelle/cours/ift725_A2014/contenu.html},
+  2013.
+\newblock Accessed: 2014-11-30.
+
+\bibitem{Nair}
+V.~Nair and G.~E. Hinton.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In {\em Proceedings of the 27th International Conference on Machine
+  Learning (ICML-10)}, pages 807--814, 2010.
+
+\bibitem{vincent2008}
+P.~Vincent, H.~Larochelle, Y.~Bengio, and P.-A. Manzagol.
+\newblock Extracting and composing robust features with denoising autoencoders.
+\newblock In {\em Proceedings of the 25th international conference on Machine
+  learning}, pages 1096--1103. ACM, 2008.
+
+\bibitem{vincent2010}
+P.~Vincent, H.~Larochelle, I.~Lajoie, Y.~Bengio, and P.-A. Manzagol.
+\newblock Stacked denoising autoencoders: Learning useful representations in a
+  deep network with a local denoising criterion.
+\newblock {\em The Journal of Machine Learning Research}, 11:3371--3408, 2010.
+
+\end{thebibliography}
