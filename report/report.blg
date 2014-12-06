@@ -4,45 +4,46 @@ The top-level auxiliary file: report.aux
 The style file: abbrv.bst
 Database file #1: references.bib
 Warning--empty journal in bouvrie2006notes
-You've used 10 entries,
+Warning--can't use both volume and number fields in Doersch
+You've used 12 entries,
             2118 wiz_defined-function locations,
-            560 strings with 5755 characters,
-and the built_in function-call counts, 3806 in all, are:
-= -- 369
-> -- 192
-< -- 4
-+ -- 76
-- -- 66
-* -- 250
-:= -- 617
-add.period$ -- 33
-call.type$ -- 10
-change.case$ -- 61
+            574 strings with 6097 characters,
+and the built_in function-call counts, 4778 in all, are:
+= -- 468
+> -- 238
+< -- 7
++ -- 94
+- -- 82
+* -- 316
+:= -- 761
+add.period$ -- 41
+call.type$ -- 12
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 148
-empty$ -- 291
-format.name$ -- 66
-if$ -- 808
+cite$ -- 14
+duplicate$ -- 193
+empty$ -- 364
+format.name$ -- 82
+if$ -- 1029
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 10
-newline$ -- 55
-num.names$ -- 20
-pop$ -- 79
+int.to.str$ -- 12
+missing$ -- 12
+newline$ -- 65
+num.names$ -- 24
+pop$ -- 98
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 64
 quote$ -- 0
-skip$ -- 114
+skip$ -- 147
 stack$ -- 0
-substring$ -- 218
-swap$ -- 45
-text.length$ -- 4
+substring$ -- 266
+swap$ -- 66
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 38
-warning$ -- 1
-while$ -- 33
-width$ -- 12
-write$ -- 112
-(There was 1 warning)
+type$ -- 46
+warning$ -- 2
+while$ -- 41
+width$ -- 14
+write$ -- 137
+(There were 2 warnings)

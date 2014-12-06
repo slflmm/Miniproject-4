@@ -18,6 +18,12 @@ J.~Bouvrie.
 \newblock Notes on convolutional neural networks.
 \newblock 2006.
 
+\bibitem{Doersch}
+C.~Doersch, S.~Singh, A.~Gupta, J.~Sivic, and A.~A. Efros.
+\newblock What makes paris look like paris?
+\newblock In {\em ACM Transactions on Graphics (SIGGRAPH)}, volume~31, page
+  101. ACM, 2012.
+
 \bibitem{Fukushima}
 K.~Fukushima.
 \newblock Neocognitron: A self-organizing neural network model for a mechanism
@@ -30,6 +36,12 @@ G.~E. Hinton, N.~Srivastava, A.~Krizhevsky, I.~Sutskever, and R.~R.
 \newblock Improving neural networks by preventing co-adaptation of feature
   detectors.
 \newblock {\em arXiv preprint arXiv:1207.0580}, 2012.
+
+\bibitem{Knopp}
+J.~Knopp, J.~Sivic, and T.~Pajdla.
+\newblock Avoiding confusing features in place recognition.
+\newblock In {\em Computer Vision--ECCV 2010}, pages 748--761. Springer Berlin
+  Heidelberg, 2010.
 
 \bibitem{Krizhevsky}
 A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.

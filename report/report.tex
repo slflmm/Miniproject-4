@@ -46,6 +46,15 @@ Benedicte Leonard-Cannon\\
 \end{abstract}
 
 \section{Introduction}% overview of approach
+To a local resident, neighborhoods of the island of Montreal bear distinctive traits. For instance, Old Montreal is characterised by its historic buildings, Downtown Montreal by its skyscrapers and Westmount by its opulent houses. To the experienced human eye, it is usually possible to pinpoint the district at which a given picture was taken, granted high enough resolution. Can we say the same of machine learning algorithms?  
+
+Automatic classification of images by provenance would have cultural and social value; tourists could easily identify the source of their photos, animation studios might use these classifiers to reconstruct more vivid and evocative scenery \cite{Doersch}, and, optimally, could help in investigations where photographs of unidentified locations might prove crucial.
+
+We attempt to determine whether machine learning algorithms can be trained to differentiate between nine visually distinctive neighbourhoods on the island of Montreal based on Google Street View images. We tackle this classification problem with three models: a perceptron (as a baseline algorithm), a stacked denoising autoencoder (for neural network pretraining) and a convolutional neural network. We place the performance of these classifiers in context by comparing them with human results.
+
+A classification task that is similar to our own was performed by researchers at Carnegie Mellon University \cite{Doersch}. The purpose of their study was to assess how cities are uniquely defined by their visual appearance. Their approach focused on extracting unique architectural characteristics from major cities in the United States, Europe and Japan, while paying particular attention to Paris. Given labeled images acquired from Google Street View, they developed a method for automatically extracting features that are recurrent and geographically distinctive within each city. Their approach relied on discriminative clustering to extract visual cues. The researchers observed that small architectural elements such as window shapes, street signs and lamp posts tend to differentiate cities more significantly than their landmarks, such as the Eiffel tower. It is worth mentioning that this method was also applied at a smaller scale: in a vein more similar to our own prediction task, an attempt was made to distinguish between districts of Paris on the basis of architectural features.
+
+Another similar study by Knopp et al. tackled the problem of place recognition using images of Paris acquired from Google Street View and Panoramio, a photo-sharing website \cite{Knopp}. Their objective was to automatically extract from a database a set of images representing the same location as that of a query image, regardless of the viewpoint and lighting conditions. Their place recognition algorithm uses a visual bag-of-words approach combined with the filtering of confusing features such as trees or cars. 
 
 \section{Dataset}
 

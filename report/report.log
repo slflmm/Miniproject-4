@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  5 DEC 2014 20:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  5 DEC 2014 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -802,107 +802,106 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 44.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
+) [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 [][]$\T1/aett/m/n/9 https : / / developers . google . com / maps / documentatio
 n /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 [][]$\T1/aett/m/n/9 http : / / ville . montreal . qc . ca / portal / page ? _pa
 geid =
  []
 
-<downtown.png, id=4, 401.5pt x 401.5pt>
+<downtown.png, id=16, 401.5pt x 401.5pt>
 File: downtown.png Graphic file (type png)
  <use downtown.png>
-Package pdftex.def Info: downtown.png used on input line 86.
+Package pdftex.def Info: downtown.png used on input line 95.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<oldmontreal.png, id=5, 401.5pt x 401.5pt>
+<oldmontreal.png, id=17, 401.5pt x 401.5pt>
 File: oldmontreal.png Graphic file (type png)
  <use oldmontreal.png>
-Package pdftex.def Info: oldmontreal.png used on input line 91.
+Package pdftex.def Info: oldmontreal.png used on input line 100.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<chinatown.png, id=6, 401.5pt x 401.5pt>
+<chinatown.png, id=18, 401.5pt x 401.5pt>
 File: chinatown.png Graphic file (type png)
  <use chinatown.png>
-Package pdftex.def Info: chinatown.png used on input line 96.
+Package pdftex.def Info: chinatown.png used on input line 105.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<gayvillage.png, id=7, 401.5pt x 401.5pt>
+<gayvillage.png, id=19, 401.5pt x 401.5pt>
 File: gayvillage.png Graphic file (type png)
  <use gayvillage.png>
-Package pdftex.def Info: gayvillage.png used on input line 102.
+Package pdftex.def Info: gayvillage.png used on input line 111.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<plateau.png, id=8, 401.5pt x 401.5pt>
+<plateau.png, id=20, 401.5pt x 401.5pt>
 File: plateau.png Graphic file (type png)
  <use plateau.png>
-Package pdftex.def Info: plateau.png used on input line 107.
+Package pdftex.def Info: plateau.png used on input line 116.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<outremont.png, id=9, 401.5pt x 401.5pt>
+<outremont.png, id=21, 401.5pt x 401.5pt>
 File: outremont.png Graphic file (type png)
  <use outremont.png>
-Package pdftex.def Info: outremont.png used on input line 112.
+Package pdftex.def Info: outremont.png used on input line 121.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<westmount.png, id=10, 401.5pt x 401.5pt>
+<westmount.png, id=22, 401.5pt x 401.5pt>
 File: westmount.png Graphic file (type png)
  <use westmount.png>
-Package pdftex.def Info: westmount.png used on input line 118.
+Package pdftex.def Info: westmount.png used on input line 127.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<hochelaga.png, id=11, 401.5pt x 401.5pt>
+<hochelaga.png, id=23, 401.5pt x 401.5pt>
 File: hochelaga.png Graphic file (type png)
  <use hochelaga.png>
-Package pdftex.def Info: hochelaga.png used on input line 123.
+Package pdftex.def Info: hochelaga.png used on input line 132.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
 
-<montrealnord.png, id=12, 401.5pt x 401.5pt>
+<montrealnord.png, id=24, 401.5pt x 401.5pt>
 File: montrealnord.png Graphic file (type png)
  <use montrealnord.png>
-Package pdftex.def Info: montrealnord.png used on input line 128.
+Package pdftex.def Info: montrealnord.png used on input line 137.
 (pdftex.def)             Requested size: 72.00073pt x 71.99731pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-[2 <./downtown.png> <./oldmontreal.png> <./chinatown.png> <./gayvillage.png> <.
-/plateau.png> <./outremont.png> <./westmount.png> <./hochelaga.png> <./montreal
-nord.png>]
+ [2 <./downtown.png> <./oldmontreal.png> <./chinatown.png> <./gayvillage.png> <
+./plateau.png> <./outremont.png> <./westmount.png> <./hochelaga.png> <./montrea
+lnord.png>]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- <human_confusion.pdf, id=34, 578.16pt x 433.62pt>
+
+[3] <human_confusion.pdf, id=37, 578.16pt x 433.62pt>
 File: human_confusion.pdf Graphic file (type pdf)
 
 <use human_confusion.pdf>
-Package pdftex.def Info: human_confusion.pdf used on input line 205.
+Package pdftex.def Info: human_confusion.pdf used on input line 214.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] <perceptron_crossval.pdf, id=38, 505.89pt x 433.62pt>
+<perceptron_crossval.pdf, id=38, 505.89pt x 433.62pt>
 File: perceptron_crossval.pdf Graphic file (type pdf)
 
 <use perceptron_crossval.pdf>
-Package pdftex.def Info: perceptron_crossval.pdf used on input line 214.
+Package pdftex.def Info: perceptron_crossval.pdf used on input line 223.
 (pdftex.def)             Requested size: 240.0pt x 205.7136pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <perceptron_confusion.pdf, id=39, 578.16pt x 433.62pt>
 File: perceptron_confusion.pdf Graphic file (type pdf)
 
 <use perceptron_confusion.pdf>
-Package pdftex.def Info: perceptron_confusion.pdf used on input line 221.
+Package pdftex.def Info: perceptron_confusion.pdf used on input line 230.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
 
@@ -912,80 +911,87 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: autoencoder_compare.pdf Graphic file (type pdf)
 
 <use autoencoder_compare.pdf>
-Package pdftex.def Info: autoencoder_compare.pdf used on input line 232.
+Package pdftex.def Info: autoencoder_compare.pdf used on input line 241.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
-
-<autoencoder_learning.pdf, id=41, 578.16pt x 433.62pt>
-File: autoencoder_learning.pdf Graphic file (type pdf)
-
-<use autoencoder_learning.pdf>
-Package pdftex.def Info: autoencoder_learning.pdf used on input line 240.
-(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4 <./human_confusion.pdf> <./perceptron_crossval.pdf
+ [4 <./human_confusion.pdf> <./perceptron_crossval.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./perceptron_crossval.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
-> <./perceptron_confusion.pdf
+>] <autoencoder_learning.pdf, id=151, 578.16pt x 433.62pt>
+File: autoencoder_learning.pdf Graphic file (type pdf)
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./perceptron_confusion.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <./autoencoder_compare.pdf
+<use autoencoder_learning.pdf>
+Package pdftex.def Info: autoencoder_learning.pdf used on input line 249.
+(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./autoencoder_compare.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->] <autoencoder_confusion.pdf, id=481, 578.16pt x 433.62pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<autoencoder_confusion.pdf, id=152, 578.16pt x 433.62pt>
 File: autoencoder_confusion.pdf Graphic file (type pdf)
 
 <use autoencoder_confusion.pdf>
-Package pdftex.def Info: autoencoder_confusion.pdf used on input line 248.
-(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
-
-<convnet_compare.pdf, id=482, 578.16pt x 433.62pt>
-File: convnet_compare.pdf Graphic file (type pdf)
- <use convnet_compare.pdf>
-Package pdftex.def Info: convnet_compare.pdf used on input line 258.
+Package pdftex.def Info: autoencoder_confusion.pdf used on input line 257.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<convnet_learning.pdf, id=483, 578.16pt x 433.62pt>
+<convnet_compare.pdf, id=153, 578.16pt x 433.62pt>
+File: convnet_compare.pdf Graphic file (type pdf)
+ <use convnet_compare.pdf>
+Package pdftex.def Info: convnet_compare.pdf used on input line 267.
+(pdftex.def)             Requested size: 240.0pt x 179.99525pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<convnet_learning.pdf, id=154, 578.16pt x 433.62pt>
 File: convnet_learning.pdf Graphic file (type pdf)
  <use convnet_learning.pdf>
-Package pdftex.def Info: convnet_learning.pdf used on input line 266.
+Package pdftex.def Info: convnet_learning.pdf used on input line 275.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: Reference `fig:convnet_confusion' on page \thepage  undefined on
- input line 271.
+ input line 280.
 
-<convnet_confusion.pdf, id=484, 578.16pt x 433.62pt>
+[5 <./perceptron_confusion.pdf> <./autoencoder_compare.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./autoencoder_compare.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./autoencoder_learning.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./autoencoder_learning.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./autoencoder_confusion.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./autoencoder_confusion.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>] <convnet_confusion.pdf, id=819, 578.16pt x 433.62pt>
 File: convnet_confusion.pdf Graphic file (type pdf)
 
 <use convnet_confusion.pdf>
-Package pdftex.def Info: convnet_confusion.pdf used on input line 274.
+Package pdftex.def Info: convnet_confusion.pdf used on input line 283.
 (pdftex.def)             Requested size: 240.0pt x 179.99525pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./report.bbl [5 <./autoencoder_learning.pdf> <./autoencoder_confusion.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./autoencoder_confusion.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <./convnet_compare.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./convnet_compare.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
-> <./convnet_learning.pdf
+(./report.bbl) [6 <./convnet_compare.pdf> <./convnet_learning.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./convnet_learning.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->]) [6 <./convnet_confusion.pdf>] [7] (./report.aux)
+> <./convnet_confusion.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./convnet_confusion.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>] [7
+
+] [8] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -994,13 +1000,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13868 strings out of 493315
- 248919 string characters out of 6137904
- 313088 words of memory out of 5000000
- 16952 multiletter control sequences out of 15000+600000
+ 13870 strings out of 493315
+ 248935 string characters out of 6137904
+ 309096 words of memory out of 5000000
+ 16954 multiletter control sequences out of 15000+600000
  55436 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,11n,75p,1111b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,75p,1119b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/
@@ -1016,10 +1022,10 @@ dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /urw/times/utmb8a.pfb>
-Output written on report.pdf (7 pages, 750474 bytes).
+Output written on report.pdf (8 pages, 755045 bytes).
 PDF statistics:
- 989 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 992 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
